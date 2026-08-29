@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this benchmark, these protocols, or this code, please cite the paper below."
-title: "Candidate Presentation Instability in LLM Answer Verification"
+title: "Candidate Presentation Instability in LLM-Based Answer Verification"
 abstract: >-
   A label-symmetric benchmark of 10,500 items and six controlled verification
   protocols for measuring how far a large language model's correctness verdict
@@ -8,6 +8,8 @@ abstract: >-
   reported against a same-prompt repeat baseline, responsiveness, and output
   coverage.
 type: software
+repository-code: "https://github.com/zfb256/Candidate-Presentation-Instability"
+doi: 10.5281/zenodo.22155756
 authors:
   - family-names: Zhuo
     given-names: Feibao
@@ -23,8 +25,8 @@ keywords:
 preferred-citation:
   type: article
   title: >-
-    Candidate Presentation Instability in Large Language Model Answer
-    Verification: A Label-Symmetric Benchmark and Controlled Study
+    Candidate Presentation Instability in Answer Verification by Large
+    Language Models: A Label-Symmetric Benchmark and Controlled Study
   authors:
     - family-names: Zhuo
       given-names: Feibao

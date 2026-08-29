@@ -1,9 +1,11 @@
-# Candidate Presentation Instability in LLM Answer Verification
+# Candidate Presentation Instability in LLM-Based Answer Verification
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22155756.svg)](https://doi.org/10.5281/zenodo.22155756)
 
 Code and reproducibility artifacts for:
 
-> **Candidate Presentation Instability in Large Language Model Answer Verification:
-> A Label-Symmetric Benchmark and Controlled Study**  
+> **Candidate Presentation Instability in Answer Verification by Large Language
+> Models: A Label-Symmetric Benchmark and Controlled Study**  
 > Feibao Zhuo
 
 An LLM verifier can reverse its correctness verdict when a candidate answer is
@@ -144,7 +146,9 @@ and only when the saved run identity matches the inputs and configuration.
 
 ## Citation
 
-See `CITATION.cff`.
+See `CITATION.cff`. The repository is archived at
+[10.5281/zenodo.22155756](https://doi.org/10.5281/zenodo.22155756), which always resolves to the
+latest release.
 
 ## License
 
