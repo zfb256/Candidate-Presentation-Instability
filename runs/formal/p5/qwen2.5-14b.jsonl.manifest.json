@@ -1,0 +1,37 @@
+{
+  "api_key_env": "LOCAL_VLLM_API_KEY",
+  "base_url_host": "127.0.0.1:8768",
+  "base_url_path": "/v1",
+  "code_sha256": "9064ceeb50ed226a4b0c33319c350b2e66bb1482c511371a544223dc7497eb6c",
+  "items_sha256": "73db47b2bbe4ee3c65710aab0b0eee0a17c42f349abf52560fef04d9907304de",
+  "json_mode": false,
+  "max_attempts_per_stage": 3,
+  "max_tokens": 512,
+  "model": "Qwen2.5-14B-Instruct",
+  "n_groups": 750,
+  "n_outputs": 10500,
+  "n_stage_a_records": 750,
+  "n_total_groups": 750,
+  "output_sha256": "5b5539a9df6118d31ecefe5cb2945472e0b6e0f5c84dada411416792f137fe60",
+  "reasoning_effort": null,
+  "stage_a_api_attempts": 752,
+  "stage_a_reused_within_group": true,
+  "stage_a_sha256": "fcb4c7f700690f147391bba496d9bf9f0ed12c8ec75b7cb2b115f83a4dadcd9e",
+  "stage_a_usage": {
+    "completion_tokens": 96668,
+    "prompt_tokens": 138517,
+    "total_tokens": 235185
+  },
+  "stage_b_api_attempts": 10558,
+  "stage_b_usage": {
+    "completion_tokens": 1037162,
+    "prompt_tokens": 4168437,
+    "total_tokens": 5205599
+  },
+  "status": "complete",
+  "temperature": 0.0,
+  "thinking": null,
+  "threshold": 0.7,
+  "timestamp_utc": "2026-08-24T13:05:42.377055+00:00",
+  "workers": 20
+}

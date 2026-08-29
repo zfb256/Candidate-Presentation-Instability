@@ -1,0 +1,173 @@
+{
+  "accuracy": 0.08552380952380953,
+  "baseline_outputs_sha256": null,
+  "bootstrap_rounds": 1000,
+  "bootstrap_seed": 13,
+  "brier_score": 0.2710821809533333,
+  "ci95": {
+    "accuracy": [
+      0.07723809523809524,
+      0.09409523809523809
+    ],
+    "brier_score": [
+      0.26648809524000017,
+      0.27592884762000014
+    ],
+    "incorrect_f1": [
+      0.12907518296739853,
+      0.16512270437185114
+    ],
+    "invariant_flip_rate": [
+      0.10835214446952596,
+      0.20647773279352227
+    ],
+    "responsiveness": [
+      0.05466666666666667,
+      0.092
+    ]
+  },
+  "code_sha256": "b820a0123ea2e572af70f7b72fdd1a8750292af2c8ce246fbdfe548c67afc977",
+  "coverage": {
+    "invalid": 9019,
+    "invalid_rate": 0.8589523809523809,
+    "missing": 0,
+    "missing_rate": 0.0,
+    "n_eval_items": 10500
+  },
+  "incorrect_f1": {
+    "f1": 0.14687037949728932,
+    "precision": 0.5340501792114696,
+    "recall": 0.08514285714285715
+  },
+  "invariant_flip": {
+    "by_family": {
+      "f1_format": {
+        "comparisons": 73,
+        "flipped": 10,
+        "invalid_pairs": 1427,
+        "missing_invariant": 0,
+        "missing_original": 0,
+        "rate": 0.136986301369863
+      },
+      "f2_verbosity": {
+        "comparisons": 85,
+        "flipped": 16,
+        "invalid_pairs": 1415,
+        "missing_invariant": 0,
+        "missing_original": 0,
+        "rate": 0.18823529411764706
+      },
+      "f3_paraphrase": {
+        "comparisons": 112,
+        "flipped": 16,
+        "invalid_pairs": 1388,
+        "missing_invariant": 0,
+        "missing_original": 0,
+        "rate": 0.14285714285714285
+      },
+      "f4_confidence": {
+        "comparisons": 78,
+        "flipped": 11,
+        "invalid_pairs": 1422,
+        "missing_invariant": 0,
+        "missing_original": 0,
+        "rate": 0.14102564102564102
+      },
+      "f5_authority": {
+        "comparisons": 93,
+        "flipped": 15,
+        "invalid_pairs": 1407,
+        "missing_invariant": 0,
+        "missing_original": 0,
+        "rate": 0.16129032258064516
+      },
+      "f6_distractor": {
+        "comparisons": 88,
+        "flipped": 15,
+        "invalid_pairs": 1412,
+        "missing_invariant": 0,
+        "missing_original": 0,
+        "rate": 0.17045454545454544
+      }
+    },
+    "by_polarity": {
+      "correct": {
+        "comparisons": 318,
+        "flipped": 45,
+        "invalid_pairs": 4182,
+        "missing_invariant": 0,
+        "missing_original": 0,
+        "rate": 0.14150943396226415
+      },
+      "incorrect": {
+        "comparisons": 211,
+        "flipped": 38,
+        "invalid_pairs": 4289,
+        "missing_invariant": 0,
+        "missing_original": 0,
+        "rate": 0.18009478672985782
+      }
+    },
+    "overall": {
+      "comparisons": 529,
+      "flipped": 83,
+      "invalid_pairs": 8471,
+      "missing_invariant": 0,
+      "missing_original": 0,
+      "rate": 0.15689981096408318
+    }
+  },
+  "invariant_flip_ci95": {
+    "by_family": {
+      "f1_format": [
+        0.06451612903225806,
+        0.21212121212121213
+      ],
+      "f2_verbosity": [
+        0.10869565217391304,
+        0.27
+      ],
+      "f3_paraphrase": [
+        0.07964601769911504,
+        0.21568627450980393
+      ],
+      "f4_confidence": [
+        0.075,
+        0.22058823529411764
+      ],
+      "f5_authority": [
+        0.0945945945945946,
+        0.23529411764705882
+      ],
+      "f6_distractor": [
+        0.08888888888888889,
+        0.25333333333333335
+      ]
+    },
+    "by_polarity": {
+      "correct": [
+        0.08783783783783784,
+        0.2006269592476489
+      ],
+      "incorrect": [
+        0.115,
+        0.2537313432835821
+      ]
+    },
+    "overall": [
+      0.10835214446952596,
+      0.20647773279352227
+    ]
+  },
+  "items_sha256": "73db47b2bbe4ee3c65710aab0b0eee0a17c42f349abf52560fef04d9907304de",
+  "n_items": 10500,
+  "n_outputs": 10500,
+  "outputs_sha256": "10bdb762ebb057d9295b0d7107599d73e1f182d9ff3835636eb8bd1818295c1b",
+  "responsiveness": {
+    "invalid": 673,
+    "missing": 0,
+    "rate": 0.072,
+    "rejected": 54,
+    "valid": 77
+  }
+}

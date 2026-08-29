@@ -1,0 +1,216 @@
+{
+  "accuracy": 0.6389523809523809,
+  "baseline_n_outputs": 10500,
+  "baseline_outputs_sha256": "fef08d9ab742bf2d3bcb972819fdb741395305b9101d3dcfd9a4e27f206118bb",
+  "bootstrap_rounds": 1000,
+  "bootstrap_seed": 13,
+  "brier_score": 0.31598166666666666,
+  "ci95": {
+    "accuracy": [
+      0.6227619047619047,
+      0.6553333333333333
+    ],
+    "brier_score": [
+      0.3023745238095244,
+      0.3287964285714288
+    ],
+    "incorrect_f1": [
+      0.6722927955938527,
+      0.7000088362640275
+    ],
+    "invariant_flip_rate": [
+      0.18828302111919817,
+      0.21545639430553895
+    ],
+    "responsiveness": [
+      0.6866666666666666,
+      0.7546666666666667
+    ]
+  },
+  "code_sha256": "b820a0123ea2e572af70f7b72fdd1a8750292af2c8ce246fbdfe548c67afc977",
+  "coverage": {
+    "invalid": 465,
+    "invalid_rate": 0.04428571428571428,
+    "missing": 0,
+    "missing_rate": 0.0,
+    "n_eval_items": 10500
+  },
+  "delta_vs_baseline": {
+    "accuracy": -0.012666666666666715,
+    "ci95": {
+      "accuracy": [
+        -0.021809523809523834,
+        -0.003142857142857114
+      ],
+      "incorrect_f1": [
+        -0.028388792754368675,
+        -0.012079684662823498
+      ],
+      "invariant_flip_rate": [
+        -0.01883815931481478,
+        0.006865766774985654
+      ],
+      "paired_valid_invariant_flip_rate": [
+        -0.018146388990378737,
+        0.007434491163924445
+      ]
+    },
+    "incorrect_f1": -0.019929981000310293,
+    "invariant_flip_rate": -0.00620173109833691,
+    "paired_valid_invariant_flip_rate": {
+      "baseline_flipped": 1716,
+      "baseline_rate": 0.2072463768115942,
+      "comparisons": 8280,
+      "delta": -0.0054347826086956486,
+      "method_flipped": 1671,
+      "method_rate": 0.20181159420289854,
+      "skipped_invalid_pairs": 720,
+      "skipped_missing_pairs": 0
+    }
+  },
+  "incorrect_f1": {
+    "f1": 0.6863195057369814,
+    "precision": 0.6394736842105263,
+    "recall": 0.7405714285714285
+  },
+  "invariant_flip": {
+    "by_family": {
+      "f1_format": {
+        "comparisons": 1418,
+        "flipped": 237,
+        "invalid_pairs": 82,
+        "missing_invariant": 0,
+        "missing_original": 0,
+        "rate": 0.16713681241184766
+      },
+      "f2_verbosity": {
+        "comparisons": 1378,
+        "flipped": 264,
+        "invalid_pairs": 122,
+        "missing_invariant": 0,
+        "missing_original": 0,
+        "rate": 0.19158200290275762
+      },
+      "f3_paraphrase": {
+        "comparisons": 1407,
+        "flipped": 215,
+        "invalid_pairs": 93,
+        "missing_invariant": 0,
+        "missing_original": 0,
+        "rate": 0.15280739161336176
+      },
+      "f4_confidence": {
+        "comparisons": 1282,
+        "flipped": 245,
+        "invalid_pairs": 218,
+        "missing_invariant": 0,
+        "missing_original": 0,
+        "rate": 0.19110764430577223
+      },
+      "f5_authority": {
+        "comparisons": 1415,
+        "flipped": 284,
+        "invalid_pairs": 85,
+        "missing_invariant": 0,
+        "missing_original": 0,
+        "rate": 0.20070671378091873
+      },
+      "f6_distractor": {
+        "comparisons": 1420,
+        "flipped": 431,
+        "invalid_pairs": 80,
+        "missing_invariant": 0,
+        "missing_original": 0,
+        "rate": 0.30352112676056336
+      }
+    },
+    "by_polarity": {
+      "correct": {
+        "comparisons": 4144,
+        "flipped": 911,
+        "invalid_pairs": 356,
+        "missing_invariant": 0,
+        "missing_original": 0,
+        "rate": 0.21983590733590733
+      },
+      "incorrect": {
+        "comparisons": 4176,
+        "flipped": 765,
+        "invalid_pairs": 324,
+        "missing_invariant": 0,
+        "missing_original": 0,
+        "rate": 0.18318965517241378
+      }
+    },
+    "overall": {
+      "comparisons": 8320,
+      "flipped": 1676,
+      "invalid_pairs": 680,
+      "missing_invariant": 0,
+      "missing_original": 0,
+      "rate": 0.2014423076923077
+    }
+  },
+  "invariant_flip_ci95": {
+    "by_family": {
+      "f1_format": [
+        0.14801699716713881,
+        0.18666666666666668
+      ],
+      "f2_verbosity": [
+        0.16981132075471697,
+        0.21536252692031588
+      ],
+      "f3_paraphrase": [
+        0.13405017921146953,
+        0.1729957805907173
+      ],
+      "f4_confidence": [
+        0.17041053446940357,
+        0.21254901960784314
+      ],
+      "f5_authority": [
+        0.1806633733239238,
+        0.22370266479663395
+      ],
+      "f6_distractor": [
+        0.2796610169491525,
+        0.32742735648476257
+      ]
+    },
+    "by_polarity": {
+      "correct": [
+        0.20119760479041915,
+        0.23784431137724552
+      ],
+      "incorrect": [
+        0.1648038049940547,
+        0.20322658319287262
+      ]
+    },
+    "overall": [
+      0.18828302111919817,
+      0.21545639430553895
+    ]
+  },
+  "items_sha256": "73db47b2bbe4ee3c65710aab0b0eee0a17c42f349abf52560fef04d9907304de",
+  "n_items": 10500,
+  "n_outputs": 10500,
+  "outputs_sha256": "c7b84d6ef192d25155ccd5674fe90b5754f6a2f4aba4d29746211221452ca6aa",
+  "paired_coverage": {
+    "baseline_eval_outputs": 10500,
+    "baseline_only_eval_outputs": 0,
+    "method_eval_outputs": 10500,
+    "method_only_eval_outputs": 0,
+    "n_eval_items": 10500,
+    "paired_eval_outputs": 10500,
+    "paired_eval_rate": 1.0
+  },
+  "responsiveness": {
+    "invalid": 36,
+    "missing": 0,
+    "rate": 0.7213333333333334,
+    "rejected": 541,
+    "valid": 714
+  }
+}

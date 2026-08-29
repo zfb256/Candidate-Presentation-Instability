@@ -1,0 +1,173 @@
+{
+  "accuracy": 0.6516190476190477,
+  "baseline_outputs_sha256": null,
+  "bootstrap_rounds": 1000,
+  "bootstrap_seed": 13,
+  "brier_score": 0.3206811904761905,
+  "ci95": {
+    "accuracy": [
+      0.6381904761904762,
+      0.6663809523809524
+    ],
+    "brier_score": [
+      0.3066059523809531,
+      0.33212261904761936
+    ],
+    "incorrect_f1": [
+      0.6956309891180771,
+      0.7182311359526549
+    ],
+    "invariant_flip_rate": [
+      0.19419362212824323,
+      0.22096866096866097
+    ],
+    "responsiveness": [
+      0.7613333333333333,
+      0.8186666666666667
+    ]
+  },
+  "code_sha256": "b820a0123ea2e572af70f7b72fdd1a8750292af2c8ce246fbdfe548c67afc977",
+  "coverage": {
+    "invalid": 153,
+    "invalid_rate": 0.014571428571428572,
+    "missing": 0,
+    "missing_rate": 0.0,
+    "n_eval_items": 10500
+  },
+  "incorrect_f1": {
+    "f1": 0.7062494867372917,
+    "precision": 0.6207593474808719,
+    "recall": 0.819047619047619
+  },
+  "invariant_flip": {
+    "by_family": {
+      "f1_format": {
+        "comparisons": 1472,
+        "flipped": 259,
+        "invalid_pairs": 28,
+        "missing_invariant": 0,
+        "missing_original": 0,
+        "rate": 0.17595108695652173
+      },
+      "f2_verbosity": {
+        "comparisons": 1467,
+        "flipped": 268,
+        "invalid_pairs": 33,
+        "missing_invariant": 0,
+        "missing_original": 0,
+        "rate": 0.18268575323790048
+      },
+      "f3_paraphrase": {
+        "comparisons": 1470,
+        "flipped": 243,
+        "invalid_pairs": 30,
+        "missing_invariant": 0,
+        "missing_original": 0,
+        "rate": 0.1653061224489796
+      },
+      "f4_confidence": {
+        "comparisons": 1413,
+        "flipped": 317,
+        "invalid_pairs": 87,
+        "missing_invariant": 0,
+        "missing_original": 0,
+        "rate": 0.224345364472753
+      },
+      "f5_authority": {
+        "comparisons": 1471,
+        "flipped": 275,
+        "invalid_pairs": 29,
+        "missing_invariant": 0,
+        "missing_original": 0,
+        "rate": 0.18694765465669613
+      },
+      "f6_distractor": {
+        "comparisons": 1472,
+        "flipped": 458,
+        "invalid_pairs": 28,
+        "missing_invariant": 0,
+        "missing_original": 0,
+        "rate": 0.3111413043478261
+      }
+    },
+    "by_polarity": {
+      "correct": {
+        "comparisons": 4381,
+        "flipped": 1120,
+        "invalid_pairs": 119,
+        "missing_invariant": 0,
+        "missing_original": 0,
+        "rate": 0.25564939511527046
+      },
+      "incorrect": {
+        "comparisons": 4384,
+        "flipped": 700,
+        "invalid_pairs": 116,
+        "missing_invariant": 0,
+        "missing_original": 0,
+        "rate": 0.15967153284671534
+      }
+    },
+    "overall": {
+      "comparisons": 8765,
+      "flipped": 1820,
+      "invalid_pairs": 235,
+      "missing_invariant": 0,
+      "missing_original": 0,
+      "rate": 0.2076440387906446
+    }
+  },
+  "invariant_flip_ci95": {
+    "by_family": {
+      "f1_format": [
+        0.1556764106050306,
+        0.1959322033898305
+      ],
+      "f2_verbosity": [
+        0.1619958988380041,
+        0.20342465753424657
+      ],
+      "f3_paraphrase": [
+        0.14739688979039892,
+        0.1842818428184282
+      ],
+      "f4_confidence": [
+        0.20297029702970298,
+        0.24572649572649571
+      ],
+      "f5_authority": [
+        0.16689280868385345,
+        0.2073669849931787
+      ],
+      "f6_distractor": [
+        0.2889344262295082,
+        0.3369639210347175
+      ]
+    },
+    "by_polarity": {
+      "correct": [
+        0.23786519438693352,
+        0.27309968138370505
+      ],
+      "incorrect": [
+        0.1412793373216751,
+        0.17826284674852205
+      ]
+    },
+    "overall": [
+      0.19419362212824323,
+      0.22096866096866097
+    ]
+  },
+  "items_sha256": "73db47b2bbe4ee3c65710aab0b0eee0a17c42f349abf52560fef04d9907304de",
+  "n_items": 10500,
+  "n_outputs": 10500,
+  "outputs_sha256": "fef08d9ab742bf2d3bcb972819fdb741395305b9101d3dcfd9a4e27f206118bb",
+  "responsiveness": {
+    "invalid": 13,
+    "missing": 0,
+    "rate": 0.7893333333333333,
+    "rejected": 592,
+    "valid": 737
+  }
+}

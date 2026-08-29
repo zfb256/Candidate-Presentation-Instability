@@ -1,0 +1,12 @@
+{
+  "invalid_rate": 0.008380952380952378,
+  "mean_rationale_words": 73.6005570495582,
+  "mean_recorded_completion_tokens": 127.5456204379562,
+  "median_rationale_words": 62.0,
+  "model": "Qwen2.5-14B-Instruct",
+  "n_outputs": 10500,
+  "n_valid": 10412,
+  "source": "runs/formal/p4/qwen2.5-14b.jsonl",
+  "source_sha256": "68facca3392bc646ddb22424866370e50900af8876af938f74ebadaac57dfa87",
+  "target_rationale_words_for_p6": 74
+}

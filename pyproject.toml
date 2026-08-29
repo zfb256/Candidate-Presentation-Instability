@@ -1,0 +1,18 @@
+[project]
+name = "candidate-induced-verification"
+version = "0.1.0"
+description = "Candidate-induced instability experiments for LLM verification."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.uv]
+package = false
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+ignore = ["E501"]

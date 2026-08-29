@@ -1,0 +1,34 @@
+# Secrets
+.env
+
+# Caches and build artefacts
+.cache/
+.deps/
+__pycache__/
+*.py[cod]
+*.bak
+
+# Source dataset snapshots are not redistributed. data/README.md records the
+# upstream files and their SHA-256 hashes so a separate download can be verified.
+data/raw/
+
+# Local working files, not part of the artefact
+output/
+tmp/
+paper/
+1.md
+polishing-rules.md
+*.prepolish*
+
+# Run logs
+runs/formal.log
+
+# LaTeX intermediates
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz

@@ -1,0 +1,41 @@
+{
+  "api_key_env": "DEEPSEEK_API_KEY",
+  "base_url_host": "api.deepseek.com",
+  "base_url_path": "/v1",
+  "code_sha256": "f5eac5026c31c774575b65abb41f3ceb39145de53e47171e2fd006b4710b3474",
+  "items_sha256": "73db47b2bbe4ee3c65710aab0b0eee0a17c42f349abf52560fef04d9907304de",
+  "json_mode": true,
+  "max_attempts_per_stage": 3,
+  "max_tokens": 512,
+  "model": "deepseek-v4-flash",
+  "n_groups": 750,
+  "n_outputs": 10500,
+  "n_stage_a_records": 750,
+  "n_total_groups": 750,
+  "output_sha256": "d21a325c6da0fbc4942332ac277b524c90626e0620f0434b49aa204da4431b44",
+  "reasoning_effort": null,
+  "stage_a_api_attempts": 750,
+  "stage_a_reused_within_group": true,
+  "stage_a_sha256": "2950d4d7f0ef6ecf1288c39d594ec27eb1f26ec581257e53df24247b172c66b4",
+  "stage_a_usage": {
+    "completion_tokens": 93269,
+    "prompt_cache_hit_tokens": 100992,
+    "prompt_cache_miss_tokens": 35123,
+    "prompt_tokens": 136115,
+    "total_tokens": 229384
+  },
+  "stage_b_api_attempts": 10511,
+  "stage_b_usage": {
+    "completion_tokens": 801715,
+    "prompt_cache_hit_tokens": 1760256,
+    "prompt_cache_miss_tokens": 2292632,
+    "prompt_tokens": 4052888,
+    "total_tokens": 4854603
+  },
+  "status": "complete",
+  "temperature": 0.0,
+  "thinking": "disabled",
+  "threshold": 0.7,
+  "timestamp_utc": "2026-08-23T23:22:52.540982+00:00",
+  "workers": 50
+}

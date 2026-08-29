@@ -1,0 +1,640 @@
+{
+  "exact_repeat/deepseek-v4-flash": {
+    "all_pairwise": {
+      "comparisons": 8325,
+      "disagreements": 411,
+      "invalid_pairs": 23175,
+      "rate": 0.04936936936936937,
+      "total_pairs": 31500
+    },
+    "anchored": {
+      "beneficial_flips": 38,
+      "comparisons": 2378,
+      "flips": 103,
+      "harmful_flips": 65,
+      "invalid_pairs": 6622,
+      "rate": 0.043313708999158956,
+      "rate_bounds_invalid_as_no_flip_or_flip": [
+        0.011444444444444445,
+        0.7472222222222222
+      ],
+      "total_pairs": 9000
+    }
+  },
+  "exact_repeat/doubao-seed-2-1-pro-260628": {
+    "all_pairwise": {
+      "comparisons": 8187,
+      "disagreements": 89,
+      "invalid_pairs": 23313,
+      "rate": 0.01087089287895444,
+      "total_pairs": 31500
+    },
+    "anchored": {
+      "beneficial_flips": 13,
+      "comparisons": 2337,
+      "flips": 28,
+      "harmful_flips": 15,
+      "invalid_pairs": 6663,
+      "rate": 0.01198117244330338,
+      "rate_bounds_invalid_as_no_flip_or_flip": [
+        0.003111111111111111,
+        0.7434444444444445
+      ],
+      "total_pairs": 9000
+    }
+  },
+  "exact_repeat/qwen2.5-1.5b": {
+    "all_pairwise": {
+      "comparisons": 8382,
+      "disagreements": 3245,
+      "invalid_pairs": 23118,
+      "rate": 0.38713910761154857,
+      "total_pairs": 31500
+    },
+    "anchored": {
+      "beneficial_flips": 306,
+      "comparisons": 2397,
+      "flips": 735,
+      "harmful_flips": 429,
+      "invalid_pairs": 6603,
+      "rate": 0.30663329161451813,
+      "rate_bounds_invalid_as_no_flip_or_flip": [
+        0.08166666666666667,
+        0.8153333333333334
+      ],
+      "total_pairs": 9000
+    }
+  },
+  "exact_repeat/qwen2.5-14b": {
+    "all_pairwise": {
+      "comparisons": 8400,
+      "disagreements": 1522,
+      "invalid_pairs": 23100,
+      "rate": 0.18119047619047618,
+      "total_pairs": 31500
+    },
+    "anchored": {
+      "beneficial_flips": 120,
+      "comparisons": 2400,
+      "flips": 459,
+      "harmful_flips": 339,
+      "invalid_pairs": 6600,
+      "rate": 0.19125,
+      "rate_bounds_invalid_as_no_flip_or_flip": [
+        0.051,
+        0.7843333333333333
+      ],
+      "total_pairs": 9000
+    }
+  },
+  "exact_repeat/qwen2.5-3b": {
+    "all_pairwise": {
+      "comparisons": 8179,
+      "disagreements": 1872,
+      "invalid_pairs": 23321,
+      "rate": 0.2288788360435261,
+      "total_pairs": 31500
+    },
+    "anchored": {
+      "beneficial_flips": 209,
+      "comparisons": 2329,
+      "flips": 471,
+      "harmful_flips": 262,
+      "invalid_pairs": 6671,
+      "rate": 0.20223271790468011,
+      "rate_bounds_invalid_as_no_flip_or_flip": [
+        0.052333333333333336,
+        0.7935555555555556
+      ],
+      "total_pairs": 9000
+    }
+  },
+  "exact_repeat/qwen2.5-7b": {
+    "all_pairwise": {
+      "comparisons": 8342,
+      "disagreements": 1454,
+      "invalid_pairs": 23158,
+      "rate": 0.17429872932150564,
+      "total_pairs": 31500
+    },
+    "anchored": {
+      "beneficial_flips": 139,
+      "comparisons": 2382,
+      "flips": 371,
+      "harmful_flips": 232,
+      "invalid_pairs": 6618,
+      "rate": 0.15575146935348447,
+      "rate_bounds_invalid_as_no_flip_or_flip": [
+        0.04122222222222222,
+        0.7765555555555556
+      ],
+      "total_pairs": 9000
+    }
+  },
+  "p1/deepseek-r1-distill-qwen-7b": {
+    "all_pairwise": {
+      "comparisons": 8229,
+      "disagreements": 630,
+      "invalid_pairs": 23271,
+      "rate": 0.07655851257746993,
+      "total_pairs": 31500
+    },
+    "anchored": {
+      "beneficial_flips": 98,
+      "comparisons": 2292,
+      "flips": 164,
+      "harmful_flips": 66,
+      "invalid_pairs": 6708,
+      "rate": 0.07155322862129145,
+      "rate_bounds_invalid_as_no_flip_or_flip": [
+        0.018222222222222223,
+        0.7635555555555555
+      ],
+      "total_pairs": 9000
+    }
+  },
+  "p1/deepseek-v4-flash": {
+    "all_pairwise": {
+      "comparisons": 31107,
+      "disagreements": 1584,
+      "invalid_pairs": 393,
+      "rate": 0.05092101456263864,
+      "total_pairs": 31500
+    },
+    "anchored": {
+      "beneficial_flips": 143,
+      "comparisons": 8889,
+      "flips": 371,
+      "harmful_flips": 228,
+      "invalid_pairs": 111,
+      "rate": 0.041736978287771405,
+      "rate_bounds_invalid_as_no_flip_or_flip": [
+        0.04122222222222222,
+        0.05355555555555556
+      ],
+      "total_pairs": 9000
+    }
+  },
+  "p1/doubao-seed-2-1-pro-260628": {
+    "all_pairwise": {
+      "comparisons": 30453,
+      "disagreements": 513,
+      "invalid_pairs": 1047,
+      "rate": 0.016845630972317997,
+      "total_pairs": 31500
+    },
+    "anchored": {
+      "beneficial_flips": 52,
+      "comparisons": 8703,
+      "flips": 142,
+      "harmful_flips": 90,
+      "invalid_pairs": 297,
+      "rate": 0.016316212800183846,
+      "rate_bounds_invalid_as_no_flip_or_flip": [
+        0.01577777777777778,
+        0.04877777777777778
+      ],
+      "total_pairs": 9000
+    }
+  },
+  "p1/internlm2.5-7b": {
+    "all_pairwise": {
+      "comparisons": 1670,
+      "disagreements": 314,
+      "invalid_pairs": 29830,
+      "rate": 0.18802395209580838,
+      "total_pairs": 31500
+    },
+    "anchored": {
+      "beneficial_flips": 45,
+      "comparisons": 529,
+      "flips": 83,
+      "harmful_flips": 38,
+      "invalid_pairs": 8471,
+      "rate": 0.15689981096408318,
+      "rate_bounds_invalid_as_no_flip_or_flip": [
+        0.009222222222222222,
+        0.9504444444444444
+      ],
+      "total_pairs": 9000
+    }
+  },
+  "p1/qwen2.5-1.5b": {
+    "all_pairwise": {
+      "comparisons": 31428,
+      "disagreements": 12414,
+      "invalid_pairs": 72,
+      "rate": 0.39499809087437954,
+      "total_pairs": 31500
+    },
+    "anchored": {
+      "beneficial_flips": 1256,
+      "comparisons": 8968,
+      "flips": 2883,
+      "harmful_flips": 1627,
+      "invalid_pairs": 32,
+      "rate": 0.3214763603925067,
+      "rate_bounds_invalid_as_no_flip_or_flip": [
+        0.32033333333333336,
+        0.3238888888888889
+      ],
+      "total_pairs": 9000
+    }
+  },
+  "p1/qwen2.5-14b": {
+    "all_pairwise": {
+      "comparisons": 31452,
+      "disagreements": 5793,
+      "invalid_pairs": 48,
+      "rate": 0.1841854254101488,
+      "total_pairs": 31500
+    },
+    "anchored": {
+      "beneficial_flips": 377,
+      "comparisons": 8982,
+      "flips": 1644,
+      "harmful_flips": 1267,
+      "invalid_pairs": 18,
+      "rate": 0.18303273213092852,
+      "rate_bounds_invalid_as_no_flip_or_flip": [
+        0.18266666666666667,
+        0.18466666666666667
+      ],
+      "total_pairs": 9000
+    }
+  },
+  "p1/qwen2.5-3b": {
+    "all_pairwise": {
+      "comparisons": 30665,
+      "disagreements": 7078,
+      "invalid_pairs": 835,
+      "rate": 0.2308168922224034,
+      "total_pairs": 31500
+    },
+    "anchored": {
+      "beneficial_flips": 698,
+      "comparisons": 8765,
+      "flips": 1820,
+      "harmful_flips": 1122,
+      "invalid_pairs": 235,
+      "rate": 0.2076440387906446,
+      "rate_bounds_invalid_as_no_flip_or_flip": [
+        0.20222222222222222,
+        0.22833333333333333
+      ],
+      "total_pairs": 9000
+    }
+  },
+  "p1/qwen2.5-7b": {
+    "all_pairwise": {
+      "comparisons": 31121,
+      "disagreements": 5518,
+      "invalid_pairs": 379,
+      "rate": 0.17730792712316443,
+      "total_pairs": 31500
+    },
+    "anchored": {
+      "beneficial_flips": 530,
+      "comparisons": 8888,
+      "flips": 1370,
+      "harmful_flips": 840,
+      "invalid_pairs": 112,
+      "rate": 0.15414041404140413,
+      "rate_bounds_invalid_as_no_flip_or_flip": [
+        0.15222222222222223,
+        0.16466666666666666
+      ],
+      "total_pairs": 9000
+    }
+  },
+  "p2/deepseek-v4-flash": {
+    "all_pairwise": {
+      "comparisons": 30977,
+      "disagreements": 1452,
+      "invalid_pairs": 523,
+      "rate": 0.046873486780514576,
+      "total_pairs": 31500
+    },
+    "anchored": {
+      "beneficial_flips": 125,
+      "comparisons": 8843,
+      "flips": 347,
+      "harmful_flips": 222,
+      "invalid_pairs": 157,
+      "rate": 0.03924007689698066,
+      "rate_bounds_invalid_as_no_flip_or_flip": [
+        0.03855555555555556,
+        0.056
+      ],
+      "total_pairs": 9000
+    }
+  },
+  "p2/qwen2.5-14b": {
+    "all_pairwise": {
+      "comparisons": 31255,
+      "disagreements": 1852,
+      "invalid_pairs": 245,
+      "rate": 0.05925451927691569,
+      "total_pairs": 31500
+    },
+    "anchored": {
+      "beneficial_flips": 156,
+      "comparisons": 8924,
+      "flips": 435,
+      "harmful_flips": 279,
+      "invalid_pairs": 76,
+      "rate": 0.04874495741819812,
+      "rate_bounds_invalid_as_no_flip_or_flip": [
+        0.04833333333333333,
+        0.05677777777777778
+      ],
+      "total_pairs": 9000
+    }
+  },
+  "p2/qwen2.5-3b": {
+    "all_pairwise": {
+      "comparisons": 29568,
+      "disagreements": 3955,
+      "invalid_pairs": 1932,
+      "rate": 0.1337594696969697,
+      "total_pairs": 31500
+    },
+    "anchored": {
+      "beneficial_flips": 516,
+      "comparisons": 8465,
+      "flips": 984,
+      "harmful_flips": 468,
+      "invalid_pairs": 535,
+      "rate": 0.11624335499113998,
+      "rate_bounds_invalid_as_no_flip_or_flip": [
+        0.10933333333333334,
+        0.16877777777777778
+      ],
+      "total_pairs": 9000
+    }
+  },
+  "p3/deepseek-v4-flash": {
+    "all_pairwise": {
+      "comparisons": 31063,
+      "disagreements": 1674,
+      "invalid_pairs": 437,
+      "rate": 0.05389048063612658,
+      "total_pairs": 31500
+    },
+    "anchored": {
+      "beneficial_flips": 177,
+      "comparisons": 8878,
+      "flips": 441,
+      "harmful_flips": 264,
+      "invalid_pairs": 122,
+      "rate": 0.04967334985357062,
+      "rate_bounds_invalid_as_no_flip_or_flip": [
+        0.049,
+        0.06255555555555556
+      ],
+      "total_pairs": 9000
+    }
+  },
+  "p3/qwen2.5-14b": {
+    "all_pairwise": {
+      "comparisons": 31407,
+      "disagreements": 5552,
+      "invalid_pairs": 93,
+      "rate": 0.17677587798898334,
+      "total_pairs": 31500
+    },
+    "anchored": {
+      "beneficial_flips": 341,
+      "comparisons": 8975,
+      "flips": 1621,
+      "harmful_flips": 1280,
+      "invalid_pairs": 25,
+      "rate": 0.18061281337047352,
+      "rate_bounds_invalid_as_no_flip_or_flip": [
+        0.1801111111111111,
+        0.18288888888888888
+      ],
+      "total_pairs": 9000
+    }
+  },
+  "p3/qwen2.5-3b": {
+    "all_pairwise": {
+      "comparisons": 29101,
+      "disagreements": 6579,
+      "invalid_pairs": 2399,
+      "rate": 0.22607470533658638,
+      "total_pairs": 31500
+    },
+    "anchored": {
+      "beneficial_flips": 718,
+      "comparisons": 8320,
+      "flips": 1676,
+      "harmful_flips": 958,
+      "invalid_pairs": 680,
+      "rate": 0.2014423076923077,
+      "rate_bounds_invalid_as_no_flip_or_flip": [
+        0.18622222222222223,
+        0.2617777777777778
+      ],
+      "total_pairs": 9000
+    }
+  },
+  "p4/deepseek-v4-flash": {
+    "all_pairwise": {
+      "comparisons": 30861,
+      "disagreements": 737,
+      "invalid_pairs": 639,
+      "rate": 0.02388127409999676,
+      "total_pairs": 31500
+    },
+    "anchored": {
+      "beneficial_flips": 95,
+      "comparisons": 8817,
+      "flips": 197,
+      "harmful_flips": 102,
+      "invalid_pairs": 183,
+      "rate": 0.02234320063513667,
+      "rate_bounds_invalid_as_no_flip_or_flip": [
+        0.02188888888888889,
+        0.042222222222222223
+      ],
+      "total_pairs": 9000
+    }
+  },
+  "p4/qwen2.5-14b": {
+    "all_pairwise": {
+      "comparisons": 31075,
+      "disagreements": 1685,
+      "invalid_pairs": 425,
+      "rate": 0.05422365245374095,
+      "total_pairs": 31500
+    },
+    "anchored": {
+      "beneficial_flips": 184,
+      "comparisons": 8873,
+      "flips": 450,
+      "harmful_flips": 266,
+      "invalid_pairs": 127,
+      "rate": 0.05071565423193959,
+      "rate_bounds_invalid_as_no_flip_or_flip": [
+        0.05,
+        0.0641111111111111
+      ],
+      "total_pairs": 9000
+    }
+  },
+  "p4/qwen2.5-3b": {
+    "all_pairwise": {
+      "comparisons": 23081,
+      "disagreements": 3675,
+      "invalid_pairs": 8419,
+      "rate": 0.15922187080282482,
+      "total_pairs": 31500
+    },
+    "anchored": {
+      "beneficial_flips": 447,
+      "comparisons": 6503,
+      "flips": 964,
+      "harmful_flips": 517,
+      "invalid_pairs": 2497,
+      "rate": 0.14823927418114716,
+      "rate_bounds_invalid_as_no_flip_or_flip": [
+        0.10711111111111112,
+        0.38455555555555554
+      ],
+      "total_pairs": 9000
+    }
+  },
+  "p5/deepseek-v4-flash": {
+    "all_pairwise": {
+      "comparisons": 31207,
+      "disagreements": 104,
+      "invalid_pairs": 293,
+      "rate": 0.0033325856378376645,
+      "total_pairs": 31500
+    },
+    "anchored": {
+      "beneficial_flips": 10,
+      "comparisons": 8913,
+      "flips": 21,
+      "harmful_flips": 11,
+      "invalid_pairs": 87,
+      "rate": 0.0023561090541905083,
+      "rate_bounds_invalid_as_no_flip_or_flip": [
+        0.0023333333333333335,
+        0.012
+      ],
+      "total_pairs": 9000
+    }
+  },
+  "p5/qwen2.5-14b": {
+    "all_pairwise": {
+      "comparisons": 31364,
+      "disagreements": 384,
+      "invalid_pairs": 136,
+      "rate": 0.012243336309144242,
+      "total_pairs": 31500
+    },
+    "anchored": {
+      "beneficial_flips": 42,
+      "comparisons": 8971,
+      "flips": 113,
+      "harmful_flips": 71,
+      "invalid_pairs": 29,
+      "rate": 0.012596143127856426,
+      "rate_bounds_invalid_as_no_flip_or_flip": [
+        0.012555555555555556,
+        0.01577777777777778
+      ],
+      "total_pairs": 9000
+    }
+  },
+  "p6/deepseek-v4-flash": {
+    "all_pairwise": {
+      "comparisons": 31355,
+      "disagreements": 1822,
+      "invalid_pairs": 145,
+      "rate": 0.05810875458459576,
+      "total_pairs": 31500
+    },
+    "anchored": {
+      "beneficial_flips": 258,
+      "comparisons": 8955,
+      "flips": 503,
+      "harmful_flips": 245,
+      "invalid_pairs": 45,
+      "rate": 0.05616973757677275,
+      "rate_bounds_invalid_as_no_flip_or_flip": [
+        0.05588888888888889,
+        0.06088888888888889
+      ],
+      "total_pairs": 9000
+    }
+  },
+  "p6/qwen2.5-14b": {
+    "all_pairwise": {
+      "comparisons": 31470,
+      "disagreements": 4716,
+      "invalid_pairs": 30,
+      "rate": 0.14985700667302193,
+      "total_pairs": 31500
+    },
+    "anchored": {
+      "beneficial_flips": 282,
+      "comparisons": 8994,
+      "flips": 1494,
+      "harmful_flips": 1212,
+      "invalid_pairs": 6,
+      "rate": 0.16611074049366245,
+      "rate_bounds_invalid_as_no_flip_or_flip": [
+        0.166,
+        0.16666666666666666
+      ],
+      "total_pairs": 9000
+    }
+  },
+  "p6/qwen2.5-3b": {
+    "all_pairwise": {
+      "comparisons": 30347,
+      "disagreements": 7267,
+      "invalid_pairs": 1153,
+      "rate": 0.23946353840577322,
+      "total_pairs": 31500
+    },
+    "anchored": {
+      "beneficial_flips": 826,
+      "comparisons": 8584,
+      "flips": 1849,
+      "harmful_flips": 1023,
+      "invalid_pairs": 416,
+      "rate": 0.21540074557315936,
+      "rate_bounds_invalid_as_no_flip_or_flip": [
+        0.20544444444444446,
+        0.25166666666666665
+      ],
+      "total_pairs": 9000
+    }
+  },
+  "sc5/qwen2.5-14b": {
+    "all_pairwise": {
+      "comparisons": 31378,
+      "disagreements": 5508,
+      "invalid_pairs": 122,
+      "rate": 0.1755370004461725,
+      "total_pairs": 31500
+    },
+    "anchored": {
+      "beneficial_flips": 451,
+      "comparisons": 8959,
+      "flips": 1460,
+      "harmful_flips": 1009,
+      "invalid_pairs": 41,
+      "rate": 0.1629646165866726,
+      "rate_bounds_invalid_as_no_flip_or_flip": [
+        0.1622222222222222,
+        0.16677777777777777
+      ],
+      "total_pairs": 9000
+    }
+  }
+}

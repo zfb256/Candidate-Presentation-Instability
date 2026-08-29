@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use this benchmark, these protocols, or this code, please cite the paper below."
+title: "Candidate Presentation Instability in LLM Answer Verification"
+abstract: >-
+  A label-symmetric benchmark of 10,500 items and six controlled verification
+  protocols for measuring how far a large language model's correctness verdict
+  moves under label-preserving changes in how a candidate answer is presented,
+  reported against a same-prompt repeat baseline, responsiveness, and output
+  coverage.
+type: software
+authors:
+  - family-names: Zhuo
+    given-names: Feibao
+    affiliation: United Family Healthcare
+license: MIT
+keywords:
+  - large language models
+  - answer verification
+  - robustness
+  - evaluation
+  - invariant flip rate
+  - candidate presentation instability
+preferred-citation:
+  type: article
+  title: >-
+    Candidate Presentation Instability in Large Language Model Answer
+    Verification: A Label-Symmetric Benchmark and Controlled Study
+  authors:
+    - family-names: Zhuo
+      given-names: Feibao
+      affiliation: United Family Healthcare
+  journal: "Applied Intelligence"
+  year: 2026

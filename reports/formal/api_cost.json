@@ -1,0 +1,133 @@
+{
+  "code_sha256": "b1691cad6cd3769200e91342eeae7caeb081849884fecd370704df2b294bb893",
+  "price_checked_on": "2026-08-23",
+  "price_sources": {
+    "deepseek-v4-flash": "https://api-docs.deepseek.com/zh-cn/quick_start/pricing",
+    "doubao-seed-2-1-pro-260628": "https://www.volcengine.com/product/ark"
+  },
+  "runs": [
+    {
+      "cost_yuan": 0.66505928,
+      "manifest_sha256": "807bcf30c16aa43f55468fc907b05ea762d2bc862be73d5deed3afe5e6e8e566",
+      "model": "deepseek-v4-flash",
+      "protocol": "exact_repeat",
+      "status": "complete",
+      "usage": {
+        "completion_tokens": 251524,
+        "prompt_cache_hit_tokens": 401664,
+        "prompt_cache_miss_tokens": 153978,
+        "prompt_tokens": 555642,
+        "total_tokens": 807166
+      }
+    },
+    {
+      "cost_yuan": 16.109664,
+      "manifest_sha256": "868da8d64d8fcda9ffbdc1b66dc390b3fe84079f3c59b4ed2c7bb02770041b4a",
+      "model": "doubao-seed-2-1-pro-260628",
+      "protocol": "exact_repeat",
+      "status": "complete",
+      "usage": {
+        "completion_tokens": 335442,
+        "prompt_tokens": 1007734,
+        "total_tokens": 1343176
+      }
+    },
+    {
+      "cost_yuan": 2.51420472,
+      "manifest_sha256": "a6a8be6f4482fee65c260182632c7f094043b0593d1bb3860bae988623e807b6",
+      "model": "deepseek-v4-flash",
+      "protocol": "p1",
+      "status": "complete",
+      "usage": {
+        "completion_tokens": 953314,
+        "prompt_cache_hit_tokens": 1473536,
+        "prompt_cache_miss_tokens": 578106,
+        "prompt_tokens": 2051642,
+        "total_tokens": 3004956
+      }
+    },
+    {
+      "cost_yuan": 60.427872,
+      "manifest_sha256": "d6496c2b8d57bd65fd561ae14131bb6ae1f258ad165e09df2f2a73f508408348",
+      "model": "doubao-seed-2-1-pro-260628",
+      "protocol": "p1",
+      "status": "complete",
+      "usage": {
+        "completion_tokens": 1264990,
+        "prompt_tokens": 3746362,
+        "total_tokens": 5011352
+      }
+    },
+    {
+      "cost_yuan": 2.5410147199999997,
+      "manifest_sha256": "c5f9f25d3a9d35cff552d588b899af3a1ad6d7703249969693bf380c9f545942",
+      "model": "deepseek-v4-flash",
+      "protocol": "p2",
+      "status": "complete",
+      "usage": {
+        "completion_tokens": 966719,
+        "prompt_cache_hit_tokens": 1473536,
+        "prompt_cache_miss_tokens": 578106,
+        "prompt_tokens": 2051642,
+        "total_tokens": 3018361
+      }
+    },
+    {
+      "cost_yuan": 2.64073456,
+      "manifest_sha256": "78b883e4575917896f41568161e42d6216af8107155bdcd13eb7d7fde406946f",
+      "model": "deepseek-v4-flash",
+      "protocol": "p3",
+      "status": "complete",
+      "usage": {
+        "completion_tokens": 988547,
+        "prompt_cache_hit_tokens": 1491328,
+        "prompt_cache_miss_tokens": 633814,
+        "prompt_tokens": 2125142,
+        "total_tokens": 3113689
+      }
+    },
+    {
+      "cost_yuan": 3.19992984,
+      "manifest_sha256": "376886a97a420c083b692d7a2dc46b31c6a7ed0cc28f3a46f6207b5a0b523d1c",
+      "model": "deepseek-v4-flash",
+      "protocol": "p4",
+      "status": "complete",
+      "usage": {
+        "completion_tokens": 1199478,
+        "prompt_cache_hit_tokens": 1576192,
+        "prompt_cache_miss_tokens": 769450,
+        "prompt_tokens": 2345642,
+        "total_tokens": 3545120
+      }
+    },
+    {
+      "cost_yuan": 4.15494796,
+      "manifest_sha256": "4f7e0f4b5468833fc987b01dab0b9c25db0599b1034dca564c648a14c01e0841",
+      "model": "deepseek-v4-flash",
+      "protocol": "p5",
+      "status": "complete",
+      "usage": {
+        "completion_tokens": 894984,
+        "prompt_cache_hit_tokens": 1861248,
+        "prompt_cache_miss_tokens": 2327755,
+        "prompt_tokens": 4189003,
+        "total_tokens": 5083987
+      }
+    },
+    {
+      "cost_yuan": 3.8501245600000003,
+      "manifest_sha256": "232cc06b1c04a62efd546f16cfd1291830b52691687e8e12ace99c25ccb42d16",
+      "model": "deepseek-v4-flash",
+      "protocol": "p6",
+      "status": "complete",
+      "usage": {
+        "completion_tokens": 972720,
+        "prompt_cache_hit_tokens": 278528,
+        "prompt_cache_miss_tokens": 1899114,
+        "prompt_tokens": 2177642,
+        "total_tokens": 3150362
+      }
+    }
+  ],
+  "total_cost_yuan": 96.10355163999999
+}

@@ -1,0 +1,77 @@
+{
+  "command": "scripts/build_cross_task_dataset.py",
+  "construction": "label-symmetric answer verification; MATH final answers only",
+  "dataset_seeds": {
+    "arc_challenge": 20260826,
+    "boolq": 20260824,
+    "commonsenseqa": 20260827,
+    "math": 20260823,
+    "openbookqa": 20260825
+  },
+  "eligible_rows": {
+    "arc_challenge": 1172,
+    "boolq": 3270,
+    "commonsenseqa": 1221,
+    "math": 3751,
+    "openbookqa": 500
+  },
+  "input_sha256": {
+    "arc_challenge": {
+      "file": "test.jsonl",
+      "sha256": "86ccaace4cd159b5c02b6b3339ebe8a7022a54f1b488e433c060b3bc38ac1f63"
+    },
+    "boolq": {
+      "file": "dev.jsonl",
+      "sha256": "e8fb84fbf510b022e963cddf3a3aded04151afa0ea0ef1cc1bf22f260ddd2344"
+    },
+    "commonsenseqa": {
+      "file": "dev_rand_split.jsonl",
+      "sha256": "4e83a600ff0c8ab5f0bbeec89fe45fa35b6e4dd04cb36124c7acb141d233fc14"
+    },
+    "math": {
+      "file": "test.jsonl",
+      "sha256": "dd85b4558749f22fe67e535c4c9d8745241def75b5edc05063fd8aa5effd6b23"
+    },
+    "openbookqa": {
+      "file": "test.jsonl",
+      "sha256": "1e448ea67d38e7c1c95bbc961b803170c6976e12cc34596c550bfbdd302a3226"
+    }
+  },
+  "math_source": {
+    "dataset": "MATH test",
+    "huggingface_commit": "d9afe06952835e34b5a148b90043bc04aa09e519",
+    "parquet_file": "test-00000-of-00001-8381d31b2d187522.parquet",
+    "parquet_sha256": "79f372afea6bedd226750eab23ba54dddede047670446d85178e3e5d0627c191"
+  },
+  "n_items": 10500,
+  "output": "data/processed/cross_task_v3_items.jsonl",
+  "output_sha256": "73db47b2bbe4ee3c65710aab0b0eee0a17c42f349abf52560fef04d9907304de",
+  "seed": 20260823,
+  "source_rows": {
+    "arc_challenge": 1172,
+    "boolq": 3270,
+    "commonsenseqa": 1221,
+    "math": 5000,
+    "openbookqa": 500
+  },
+  "timestamp_utc": "2026-08-23T13:13:09.563417+00:00",
+  "validation": {
+    "V1_answer_invariance": "pass",
+    "V2_flip_validity": "pass",
+    "V3_cell_coverage": "pass",
+    "V4_no_option_leakage": "pass",
+    "V6_label_balance": {
+      "correct": 5250,
+      "incorrect": 5250
+    },
+    "datasets": {
+      "arc_challenge": 2100,
+      "boolq": 2100,
+      "commonsenseqa": 2100,
+      "math": 2100,
+      "openbookqa": 2100
+    },
+    "groups": 750,
+    "items": 10500
+  }
+}

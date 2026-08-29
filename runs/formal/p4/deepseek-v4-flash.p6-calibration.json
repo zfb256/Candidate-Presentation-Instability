@@ -1,0 +1,12 @@
+{
+  "invalid_rate": 0.01609523809523805,
+  "mean_rationale_words": 59.073758590649504,
+  "mean_recorded_completion_tokens": 107.72916465008228,
+  "median_rationale_words": 52,
+  "model": "deepseek-v4-flash",
+  "n_outputs": 10500,
+  "n_valid": 10331,
+  "source": "runs/formal/p4/deepseek-v4-flash.jsonl",
+  "source_sha256": "954c32ae147fdceb87c7c91838386b76ed1b46721f2afeaa5be5fe3087bd19ec",
+  "target_rationale_words_for_p6": 59
+}

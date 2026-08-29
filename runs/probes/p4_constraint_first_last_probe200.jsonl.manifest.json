@@ -1,0 +1,9 @@
+{
+  "items": "data/processed/cross_task_v3_probe200.jsonl",
+  "items_sha256": "427c637a9c29f69944c8d7a1d6f33b1def30e183d1c414df162b50a0ff81349c",
+  "n_prompts": 2800,
+  "output_sha256": "4def83d2f25782c4c391ea791cb70a02daee85b6a61ec2187cebc1f1b338b508",
+  "protocol": "p4_constraint_first_last",
+  "target_rationale_words": null,
+  "timestamp_utc": "2026-08-23T13:13:11.273150+00:00"
+}
