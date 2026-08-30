@@ -1,12 +1,4 @@
-# Candidate Presentation Instability in LLM-Based Answer Verification
-
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22155756.svg)](https://doi.org/10.5281/zenodo.22155756)
-
-Code and reproducibility artifacts for:
-
-> **Candidate Presentation Instability in Answer Verification by Large Language
-> Models: A Label-Symmetric Benchmark and Controlled Study**  
-> Feibao Zhuo
+# Candidate Presentation Instability in Answer Verification by Large Language Models: A Label-Symmetric Benchmark and Controlled Study
 
 An LLM verifier can reverse its correctness verdict when a candidate answer is
 repackaged without changing its content. This repository contains the
