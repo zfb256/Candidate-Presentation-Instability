@@ -39,7 +39,6 @@ data/processed/     10,500-item benchmark and 200-group subset
 data/README.md      upstream filenames, revisions, and SHA-256 hashes
 runs/               frozen prompts, per-item verifier outputs, and run manifests
 reports/formal/     aggregated evaluations and sensitivity summaries
-docs/               frozen design record and implementation audit
 ```
 
 Every released JSONL artifact has a sibling manifest or is covered by a report
